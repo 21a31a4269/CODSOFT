@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ComfyDecors - Interior Design</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F5F5F5;
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            background-color: #003366;
+            padding: 10px;
+        }
+
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            margin: 0;
+        }
+
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            font-size: 18px;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-color: #003366;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px;
+        }
+
+        .hero-content {
+            max-width: 50%;
+        }
+
+        .hero-image {
+            max-width: 40%;
+            border-radius: 10px;
+        }
+
+        /* About Section */
+        .about {
+            display: flex;
+            align-items: center;
+            padding: 50px;
+            background-color: #E8F0FE;
+        }
+
+        .about-content {
+            max-width: 50%;
+        }
+
+        .about-image {
+            max-width: 40%;
+            border-radius: 10px;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-item h3 {
+            font-size: 36px;
+            margin: 0;
+            color: #003366;
+        }
+
+        .stat-item p {
+            font-size: 18px;
+            margin: 0;
+        }
+
+        /* Offerings Section */
+        .offerings {
+            padding: 50px;
+            background-color: #FFFFFF;
+        }
+
+        .offerings h2 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .offerings-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .offering-item {
+            text-align: center;
+        }
+
+        .offering-item img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        .read-more {
+            display: inline-block;
+            margin-top: 10px;
+            color: #003366;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Transform Your Home with Comfort</h1>
+            <p>Discover curated ideas and trends to create a cozy and stylish living space that embodies comfort and elegance.</p>
+        </div>
+        <img src="your-interior-picture.jpg" alt="Interior Decor" class="hero-image">
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="about-content">
+            <h2>About ComfyDecors</h2>
+            <p>ComfyDecors is your ultimate source for home decor inspiration, tips, and trends to help you design a comfortable and beautiful living space.</p>
+            <div class="stats">
+                <div class="stat-item">
+                    <h3>20+</h3>
+                    <p>Years of Experience</p>
+                </div>
+                <div class="stat-item">
+                    <h3>15+</h3>
+                    <p>Team Members</p>
+                </div>
+                <div class="stat-item">
+                    <h3>10+</h3>
+                    <p>Awards Won</p>
+                </div>
+            </div>
+        </div>
+        <img src="your-about-picture.jpg" alt="About ComfyDecors" class="about-image">
+    </section>
+
+    <!-- Our Offerings Section -->
+    <section class="offerings">
+        <h2>Our Offerings</h2>
+        <div class="offerings-grid">
+            <div class="offering-item">
+                <img src="interior-consultation.jpg" alt="Interior Design Consultation">
+                <h3>Interior Design Consultation</h3>
+                <p>Get expert advice and personalized design solutions for your home interiors.</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+            <div class="offering-item">
+                <img src="decor-sourcing.jpg" alt="Home Decor Sourcing">
+                <h3>Home Decor Sourcing</h3>
+                <p>Discover unique pieces and stylish accents to enhance your living space.</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+            <div class="offering-item">
+                <img src="furniture-layout.jpg" alt="Furniture Layout Planning">
+                <h3>Furniture Layout Planning</h3>
+                <p>Optimize your space with professional furniture arrangement and layout designs.</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+            <div class="offering-item">
+                <img src="color-scheme.jpg" alt="Color Scheme Coordination">
+                <h3>Color Scheme Coordination</h3>
+                <p>Achieve harmonious and inviting aesthetics through expert color coordination.</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
